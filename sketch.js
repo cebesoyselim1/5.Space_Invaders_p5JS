@@ -79,8 +79,8 @@ function ResetGame(){
         
         //invaders were created
         for(let ct = 0; ct < 3; ct++){
-            for(let k = 0; k < 10; k++){
-                invaders.push(new Invader(k * 40 + 20,ct* 40 + 30));
+            for(let k = 0; k < 8; k++){
+                invaders.push(new Invader(k * 40 + 60,ct* 40 + 30));
             }
         }
     }
